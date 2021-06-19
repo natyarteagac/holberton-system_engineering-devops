@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Executing ls command in for loop.
 
-for command in ls
+for iterator in *
 do
-    $command
+    echo $iterator | cut -d
 done
