@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Executing ls command in for loop.
+
+for command in ls
+do
+    $command
+done
