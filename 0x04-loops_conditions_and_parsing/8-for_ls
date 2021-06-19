@@ -3,5 +3,5 @@
 
 for iterator in *
 do
-    echo $iterator | cut -d
+    echo "$iterator" | cut -f2 -d"-"
 done
