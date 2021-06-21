@@ -44,6 +44,14 @@ Move the file betty from /tmp/ to /tmp/holberton.
 The file betty is in /tmp/holberton
 - **9. Bye bye Holberton** -
 Delete the directory holberton that is in the /tmp directory.
+- **10. Back to the future** -
+Script that changes the working directory to the previous one.
+- **11. Lists** -
+Script that lists all the files
+- **12. File type** -
+Printing the name of the file named iamafile in the /tmp directory
+- **13. We are symbols, and inhabit symbols** -
+Creating a symbolic link to /bin/ls named __ls__
 
 ## Execution file
 ./example
