@@ -38,6 +38,12 @@ Display current directory contents, including hidden files (starting with .). Us
 Display current directory contents.
 6. Welcome holberton
 Create a script that creates a directory named holberton in the /tmp/ directory.
+7. Betty in Holberton
+Move the file betty from /tmp/ to /tmp/holberton.
+8. Bye bye Betty
+The file betty is in /tmp/holberton
+9. Bye bye Holberton
+Delete the directory holberton that is in the /tmp directory.
 
 ## Execution file
 ./example
