@@ -1,6 +1,6 @@
-## 0x00. Shell, basics
+# 0x00. Shell, basics
 
-# man or help:
+## man or help:
 - cd
 - ls
 - pwd
@@ -18,11 +18,11 @@
 
 ## Learning Objectives
 
-# General
+## General
 - What does RTFM mean?
 - What is a Shebang
 
-# Tasks
+## Tasks
 
 0. Where am I?
 Write a script that prints the absolute path name of the current working directory.
@@ -39,5 +39,5 @@ Display current directory contents.
 6. Welcome holberton
 Create a script that creates a directory named holberton in the /tmp/ directory.
 
-# Execution file
+## Execution file
 ./example
