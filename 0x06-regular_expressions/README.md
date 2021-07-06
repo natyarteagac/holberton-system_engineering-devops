@@ -8,31 +8,31 @@
   </li>
 
 
-    <li class="list-group-item">
+<li class="list-group-item">
       <i class="fa fa-user fa-fw"></i> By Sylvain Kalache, co-founder at Holberton School
     </li>
 
 
 
 
-      <li class="list-group-item">
+<li class="list-group-item">
         <i class="fa fa-calendar fa-fw"></i>
             Ongoing project - started 07-05-2021, must end by 07-06-2021 (in about 4 hours)
           - you're done with <span id="student_task_done_percentage">100</span>% of tasks.
       </li>
 
-      <li class="list-group-item">
+<li class="list-group-item">
         <i class="fa fa-check fa-fw"></i>
           Checker was released at 07-05-2021 06:00 PM
       </li>
 
-      <li class="list-group-item">
+<li class="list-group-item">
         <i class="fa fa-check-square fa-fw"></i>
           <strong>Manual QA review must be done</strong>
           (request it when you are done with the project)
       </li>
 
-      <li class="list-group-item">
+<li class="list-group-item">
         <i class="fa fa-check-square fa-fw"></i>
         QA review fully automated.
       </li>
@@ -42,12 +42,12 @@
 
 
 
-    <div id="project_id" style="display: none" data-project-id="78"></div>
+<div id="project_id" style="display: none" data-project-id="78"></div>
 
 
 
 
-        <h2>Concepts</h2>
+<h2>Concepts</h2>
 
   <div class="panel panel-default">
     <div class="panel-body">
@@ -55,7 +55,7 @@
         <em>For this project, students are expected to look at this concept:</em>
       </p>
 
-      <ul>
+<ul>
           <li>
             <a href="/concepts/29">Regular Expression</a>
           </li>
@@ -64,7 +64,7 @@
   </div>
 
 
-      <div class="gap" id="project-description">
+<div class="gap" id="project-description">
   <h2>Background Context</h2>
 
 <p>For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties.</p>
