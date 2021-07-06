@@ -1,4 +1,4 @@
-      <h1 class="gap">0x06. Regular expression</h1>
+<h1 class="gap">0x06. Regular expression</h1>
 
 
   <ul class="list-group metadata" id="project-metadata">
