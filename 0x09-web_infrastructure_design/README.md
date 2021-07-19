@@ -3,7 +3,7 @@
 <div class="project row">
   <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
 
-      <h1 class="gap">0x09. Web infrastructure design</h1>
+<h1 class="gap">0x09. Web infrastructure design</h1>
 
 
   <ul class="list-group metadata" id="project-metadata">
@@ -42,13 +42,12 @@
 </ul>
 
 
-
-    <div id="project_id" style="display: none" data-project-id="302"></div>
-
+<div id="project_id" style="display: none" data-project-id="302"></div>
 
 
 
-        <h2>Concepts</h2>
+
+<h2>Concepts</h2>
 
   <div class="panel panel-default">
     <div class="panel-body">
@@ -130,13 +129,6 @@
 
   <div class="panel-body">
     <span id="user_id" data-id="2867"></span>
-
-
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
-    <p>A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a <a href="/rltoken/lBFrw_pTU3_sMuYFptFFsw" title="LAMP stack" target="_blank">LAMP stack</a>.</p>
 
 <p>On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via <code>www.foobar.com</code>. Start your explanation by having a user wanting to access your website.</p>
 
