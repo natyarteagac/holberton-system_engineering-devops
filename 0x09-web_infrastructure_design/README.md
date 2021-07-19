@@ -12,40 +12,7 @@
     <em>Foundations &gt; System engineering &amp; DevOps &gt; Web stack</em>
   </li>
 
-
-    <li class="list-group-item">
-      <i class="fa fa-user fa-fw"></i> By Sylvain Kalache, co-founder at Holberton School
-    </li>
-
-
-
-    <li class="list-group-item">
-      <i class="fa fa-users fa-fw"></i> Project to be done in teams of 3 people
-        (your team: Juan Duque, Natalia Arteaga Corrales, Vanessa Mususué
-    </li>
-
-      <li class="list-group-item">
-        <i class="fa fa-calendar fa-fw"></i>
-            Ongoing project - started 07-15-2021, must end by 07-19-2021 (in about 5 hours)
-          - you're done with <span id="student_task_done_percentage">0</span>% of tasks.
-      </li>
-
-
-      <li class="list-group-item">
-        <i class="fa fa-check-square fa-fw"></i>
-          <strong>Manual QA review must be done</strong>
-          (request it when you are done with the project)
-      </li>
-
-
-
-</ul>
-
-
 <div id="project_id" style="display: none" data-project-id="302"></div>
-
-
-
 
 <h2>Concepts</h2>
 
@@ -78,7 +45,7 @@
   </div>
 
 
-      <div class="gap" id="project-description">
+<div class="gap" id="project-description">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/lQNEW76KdYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h2>Resources</h2>
@@ -162,6 +129,58 @@
 <li>SPOF</li>
 <li>Downtime when maintenance needed (like deploying new code web server needs to be restarted)</li>
 <li>Cannot scale if too much incoming traffic</li>
+</ul></li>
+</ul>
+
+<p>Please, remember that everything must be written in English to further your technical ability in a variety of settings.</p>
+
+  </div>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      1. Distributed web infrastructure
+    </h3>
+
+<div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="2867"></span>
+
+<p>On a whiteboard, design a three server web infrastructure that hosts the website <code>www.foobar.com</code>.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li> You must add:
+
+<ul>
+<li>2 servers</li>
+<li>1 web server (Nginx)</li>
+<li>1 application server</li>
+<li>1 load-balancer (HAproxy)</li>
+<li>1 set of application files (your code base)</li>
+<li>1 database (MySQL)</li>
+</ul></li>
+<li>You must be able to explain some specifics about this infrastructure:
+
+<ul>
+<li>For every additional element, why you are adding it</li>
+<li>What distribution algorithm your load balancer is configured with and how it works</li>
+<li>Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both</li>
+<li>How a database Primary-Replica (Master-Slave) cluster works</li>
+<li>What is the difference between the Primary node and the Replica node in regard to the application</li>
+</ul></li>
+<li>You must be able to explain what the issues are with this infrastructure:
+
+<ul>
+<li>Where are SPOF</li>
+<li>Security issues (no firewall, no HTTPS)</li>
+<li>No monitoring</li>
 </ul></li>
 </ul>
 
