@@ -1,1 +1,178 @@
 # 0x09-web_infrastructure_design
+
+<div class="project row">
+  <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
+
+      <h1 class="gap">0x09. Web infrastructure design</h1>
+
+
+  <ul class="list-group metadata" id="project-metadata">
+  <li class="list-group-item">
+    <i class="fa fa-folder-open fa-fw"></i>
+    <em>Foundations &gt; System engineering &amp; DevOps &gt; Web stack</em>
+  </li>
+
+
+    <li class="list-group-item">
+      <i class="fa fa-user fa-fw"></i> By Sylvain Kalache, co-founder at Holberton School
+    </li>
+
+
+
+    <li class="list-group-item">
+      <i class="fa fa-users fa-fw"></i> Project to be done in teams of 3 people
+        (your team: Juan Duque, Natalia Arteaga Corrales, Vanessa Mususué
+    </li>
+
+      <li class="list-group-item">
+        <i class="fa fa-calendar fa-fw"></i>
+            Ongoing project - started 07-15-2021, must end by 07-19-2021 (in about 5 hours)
+          - you're done with <span id="student_task_done_percentage">0</span>% of tasks.
+      </li>
+
+
+      <li class="list-group-item">
+        <i class="fa fa-check-square fa-fw"></i>
+          <strong>Manual QA review must be done</strong>
+          (request it when you are done with the project)
+      </li>
+
+
+
+</ul>
+
+
+
+    <div id="project_id" style="display: none" data-project-id="302"></div>
+
+
+
+
+        <h2>Concepts</h2>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <p>
+        <em>For this project, students are expected to look at these concepts:</em>
+      </p>
+<ul>
+          <li>
+            <a href="/concepts/12">DNS</a>
+          </li>
+          <li>
+            <a href="/concepts/13">Monitoring</a>
+          </li>
+          <li>
+            <a href="/concepts/17">Web Server</a>
+          </li>
+          <li>
+            <a href="/concepts/33">Network basics</a>
+          </li>
+          <li>
+            <a href="/concepts/46">Load balancer</a>
+          </li>
+          <li>
+            <a href="/concepts/67">Server</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+
+      <div class="gap" id="project-description">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lQNEW76KdYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h2>Resources</h2>
+
+<p><strong>Read or watch</strong>:</p>
+
+<ul>
+<li><strong>Network basics</strong> concept page</li>
+<li><strong>Server</strong> concept page</li>
+<li><strong>Web server</strong> concept page</li>
+<li><strong>DNS</strong> concept page</li>
+<li><strong>Load balancer</strong> concept page</li>
+<li><strong>Monitoring</strong> concept page</li>
+<li><a href="/rltoken/ZbnRbvp1926PRxMG3_8fZA" title="What is a database" target="_blank">What is a database</a> </li>
+<li><a href="/rltoken/Nb8B47Y2D8SLqQMOKVoQyQ" title="What&#39;s the difference between a web server and an app server?" target="_blank">What&rsquo;s the difference between a web server and an app server?</a></li>
+<li><a href="/rltoken/oAxMObOTX3Wx4KH_hCNw3g" title="DNS record types" target="_blank">DNS record types</a> </li>
+<li><a href="/rltoken/wYpewVpIp9PSqqL27RPafg" title="Single point of failure" target="_blank">Single point of failure</a> </li>
+<li><a href="/rltoken/Mlvynt0OgLQXrxjrC5Wlnw" title="How to avoid downtime when deploying new code" target="_blank">How to avoid downtime when deploying new code</a> </li>
+<li><a href="/rltoken/POX3jE0S6TChQHSYQraYeQ" title="High availability cluster (active-active/active-passive)" target="_blank">High availability cluster (active-active/active-passive)</a> </li>
+<li><a href="/rltoken/N4BwU4wYDNW02kdzMiekFw" title="What is HTTPS" target="_blank">What is HTTPS</a> </li>
+<li><a href="/rltoken/ZFTutaKN4wWzmL4fWhQmeg" title="What is a firewall" target="_blank">What is a firewall</a> </li>
+</ul>
+
+<h2>Learning Objectives</h2>
+
+<p>At the end of this project, you are expected to be able to <a href="/rltoken/mTOwCk7vlvpScjuBL0zyZA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+
+<h3>General</h3>
+
+<ul>
+<li>You must be able to draw a diagram covering the web stack you built with the sysadmin/devops track projects</li>
+<li>You must be able to explain what each component is doing</li>
+<li>You must be able to explain system redundancy</li>
+<li>Know all the mentioned acronyms: LAMP, SPOF, QPS</li>
+</ul>
+
+## Tasks
+<h3 class="panel-title">
+      0. Simple web stack
+    </h3>
+
+<div>
+<span class="label label-info">
+    mandatory
+</span>
+</div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="2867"></span>
+
+
+
+    <!-- Progress vs Score -->
+
+    <!-- Task Body -->
+    <p>A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a <a href="/rltoken/lBFrw_pTU3_sMuYFptFFsw" title="LAMP stack" target="_blank">LAMP stack</a>.</p>
+
+<p>On a whiteboard, design a one server web infrastructure that hosts the website that is reachable via <code>www.foobar.com</code>. Start your explanation by having a user wanting to access your website.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li> You must use:
+
+<ul>
+<li>1 server</li>
+<li>1 web server (Nginx)</li>
+<li>1 application server</li>
+<li>1 application files (your code base)</li>
+<li>1 database (MySQL)</li>
+<li>1 domain name <code>foobar.com</code> configured with a <code>www</code> record that points to your server IP <code>8.8.8.8</code></li>
+</ul></li>
+<li>You must be able to explain some specifics about this infrastructure:
+
+<ul>
+<li>What is a server</li>
+<li>What is the role of the domain name</li>
+<li>What type of DNS record <code>www</code> is in <code>www.foobar.com</code></li>
+<li>What is the role of the web server</li>
+<li>What is the role of the application server</li>
+<li>What is the role of the database</li>
+<li>What is the server using to communicate with the computer of the user requesting the website</li>
+</ul></li>
+<li>You must be able to explain what the issues are with this infrastructure:
+
+<ul>
+<li>SPOF</li>
+<li>Downtime when maintenance needed (like deploying new code web server needs to be restarted)</li>
+<li>Cannot scale if too much incoming traffic</li>
+</ul></li>
+</ul>
+
+<p>Please, remember that everything must be written in English to further your technical ability in a variety of settings.</p>
+
+  </div>
