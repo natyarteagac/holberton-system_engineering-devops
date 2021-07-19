@@ -87,7 +87,7 @@
 
 <div>
 <span class="label label-info">
-    mandatory
+<h5>Mandatory</h5>
 </span>
 </div>
   </div>
