@@ -87,7 +87,7 @@
 
 <div>
 <span class="label label-info">
-<h5>Mandatory</h5>
+<h4>Mandatory</h4>
 </span>
 </div>
   </div>
@@ -138,10 +138,10 @@
     <h3 class="panel-title">
       1. Distributed web infrastructure
     </h3>
-
+<img src="https://i.imgur.com/TUoYo9m.jpg"width="900" height="500"></img>
 <div>
         <span class="label label-info">
-          mandatory
+<h4>Mandatory</h4>
         </span>
     </div>
   </div>
@@ -193,10 +193,10 @@
     <h3 class="panel-title">
       2. Secured and monitored web infrastructure
     </h3>
-
+<img src="https://i.imgur.com/gZex2hU.jpg"width="900" height="500"></img>
 <div>
         <span class="label label-info">
-          mandatory
+<h4>Mandatory</h4>
         </span>
     </div>
   </div>
