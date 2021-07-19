@@ -83,7 +83,7 @@
 <h3 class="panel-title">
       0. Simple web stack
     </h3>
-<img src="https://i.imgur.com/9s7Y4ZJ.jpg"width="700" height="500"></img>
+<img src="https://i.imgur.com/9s7Y4ZJ.jpg"width="700" height="700"></img>
 
 <div>
 <span class="label label-info">
