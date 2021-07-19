@@ -1,5 +1,3 @@
-# 0x09-web_infrastructure_design
-
 <div class="project row">
   <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
 
@@ -187,3 +185,57 @@
 <p>Please, remember that everything must be written in English to further your technical ability in a variety of settings.</p>
 
   </div>
+    <div data-role="task1756" data-position="3" id="task-num-2">
+      <div class="panel panel-default task-card " id="task-1756">
+  <span id="user_id" data-id="2867"></span>
+
+  <div class="panel-heading panel-heading-actions">
+    <h3 class="panel-title">
+      2. Secured and monitored web infrastructure
+    </h3>
+
+    <div>
+        <span class="label label-info">
+          mandatory
+        </span>
+    </div>
+  </div>
+
+  <div class="panel-body">
+    <span id="user_id" data-id="2867"></span>
+
+<!-- Progress vs Score -->
+
+<!-- Task Body -->
+<p>On a whiteboard, design a three server web infrastructure that hosts the website <code>www.foobar.com</code>, it must be secured, serve encrypted traffic, and be monitored.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li> You must add:
+
+<ul>
+<li>3 firewalls </li>
+<li>1 SSL certificate to serve <code>www.foobar.com</code> over HTTPS</li>
+<li>3 monitoring clients (data collector for Sumologic or other monitoring services)</li>
+</ul></li>
+<li>You must be able to explain some specifics about this infrastructure:
+
+<ul>
+<li>For every additional element, why you are adding it</li>
+<li>What are firewalls for</li>
+<li>Why is the traffic served over HTTPS</li>
+<li>What monitoring is used for</li>
+<li>How the monitoring tool is collecting data</li>
+<li>Explain what to do if you want to monitor your web server QPS</li>
+</ul></li>
+<li>You must be able to explain what the issues are with this infrastructure:
+
+<ul>
+<li>Why terminating SSL at the load balancer level is an issue</li>
+<li>Why having only one MySQL server capable of accepting writes is an issue</li>
+<li>Why having servers with all the same components (database, web server and application server) might be a problem</li>
+</ul></li>
+</ul>
+
+<p>Please, remember that everything must be written in English to further your technical ability in a variety of settings.</p>
