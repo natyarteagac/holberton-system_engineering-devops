@@ -194,7 +194,7 @@
       2. Secured and monitored web infrastructure
     </h3>
 
-    <div>
+<div>
         <span class="label label-info">
           mandatory
         </span>
