@@ -2,5 +2,6 @@
 
 exec { 'killmenow':
   command  => 'pkill -i',
-  provider => 'shell',
+  provider => shell,
+  onlyif   => 'killmenow',
 }
