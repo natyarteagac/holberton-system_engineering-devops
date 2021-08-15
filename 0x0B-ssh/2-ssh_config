@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configuration to refuse to authenticate ussing a password
+
+cat ~/.ssh/holberton.pub | ssh ubuntu@34.139.140.249 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
