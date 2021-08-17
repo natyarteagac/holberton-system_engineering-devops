@@ -1,12 +1,19 @@
 #!/usr/bin/env bash
 # Installing Nginx web server
 
+# Updating server
 sudo apt-get -y update
+# Upgrading server
 sudo apt-get -y upgrade
+# Installing nginx
 sudo apt-get -y install nginx
+# Starting nginx
 sudo service nginx start
+# Giving permissions to file
 sudo chmod 777 /var/www/html/index.nginx-debian.html
+# Writing the string on the index.nginx-debian.html
 sudo echo "Holberton School" > /var/www/html/index.nginx-debian.html
+# Asking if the program has to restart nginx
 if [ $? != 0 ]
 then
     sudo service nginx restart
