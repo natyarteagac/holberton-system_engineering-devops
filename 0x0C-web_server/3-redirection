@@ -1,5 +1,5 @@
 #!/usr/bin/ env bash
 # Redirecting the domain name
 
-cd /etc/nginx/sites-enabled/default
-sudo chmod 777 default
+sudo chmod 777 /etc/nginx/sites-enabled/
+sed 's/https://www.youtube.com/watch?v=QH2-TGUlwu4' default
