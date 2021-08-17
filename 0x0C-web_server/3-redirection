@@ -1,0 +1,5 @@
+#!/usr/bin/ env bash
+# Redirecting the domain name
+
+cd /etc/nginx/sites-enabled/default
+sudo chmod 777 default
