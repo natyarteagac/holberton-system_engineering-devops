@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+  <title>404 not found</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #vanta-canvas {
+      height: 100vh;
+      position: relative;
+    }
+
+    .errormessage {
+      color: whitesmoke;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      z-index: 1;
+      text-align: center;
+      font-size: 3rem;
+      font-family: 'Merienda', cursive;
+      text-shadow: 1px 1px 2px wheat;
+    }
+  </style>
+</head>
+
+<body>
+  <p class="errormessage">Ceci n'est pas une page</p>
+  <div id="vanta-canvas"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+  <!--<script src="three.r119.min.js"></script>-->
+  <!--<script src="vanta.clouds.min.js"></script>-->
+  <script>
+    VANTA.CLOUDS({
+      el: "#vanta-canvas",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      skyColor: 0x32444c,
+      cloudColor: 0x1e365b,
+      speed: 0.40
+    })
+  </script>
+</body>
+
+</html>
