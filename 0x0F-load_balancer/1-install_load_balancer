@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
 # Installing and configuring HAproxy on the server
 
+# Updating
+sudo apt-get -y update
+# Upgrading
+sudo apt-get -y upgrade
 # Installing haproxy on server
 sudo apt-get -y install haproxy
 # Manage HAproxy via init script
 sudo sed -i "8i ENABLED=1" /etc/default/haproxy
+# Starting HAproxy
+sudo service haproxy start
 # Configurating roundrobin balance
-sudo sed -i "10i balance roundrobin" /etc/haproxy/haproxy.cfg
+sudo sed -i "10i frontend web-01 \n\t bind 34.139.140.249:80 \n\t stats uri /haproxy?stats \n\t default_backend web-02 \n\n backend web-02 \n\t balance roundrobin \n\t server web-02 100.26.46.66:80 check" /etc/haproxy/haproxy.cfg
+# Restarting service
+sudo service haproxy restart
