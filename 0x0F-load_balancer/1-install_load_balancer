@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Installing and configuring HAproxy on the server
+
+# Installing haproxy on server
+sudo apt-get -y install haproxy
+# Manage HAproxy via init script
+sudo sed -i "8i ENABLED=1" /etc/default/haproxy
+# Configurating roundrobin balance
+sudo sed -i "10i balance roundrobin" /etc/haproxy/haproxy.cfg
