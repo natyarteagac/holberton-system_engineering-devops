@@ -1,6 +1,7 @@
 # Creating a HTTP header X-Served-By
 
-class { 'http_hardening':
-  nginx    => true,
-  content  => ("X-Served-By", $HOSTNAME)
+exec {
+  cwd      => /etc/nginx/nginx.conf,
+  command  => 'sudo sed -i 11i \\\t add_header X-Served-By '$HOSTNAME' always;\n',
+  provider => shell,
 }
