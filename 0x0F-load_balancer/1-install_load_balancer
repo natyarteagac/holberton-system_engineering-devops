@@ -12,6 +12,6 @@ sudo sed -i "8i ENABLED=1" /etc/default/haproxy
 # Starting HAproxy
 sudo service haproxy start
 # Configurating roundrobin balance
-sudo sed -i "11i frontend http_front \n\t bind *:80 \n\t stats uri /haproxy?stats \n\t default_backend http_back \n\n backend http_back \n\t balance roundrobin \n\t server 2867-web-01 34.139.140.249:80 check \n\t server 2867-web-02 100.26.46.66:80 check" /etc/haproxy/haproxy.cfg
+sudo sed -i "36i frontend http_front \n\t bind *:80 \n\t mode http \n\t default_backend http_back \n\n backend http_back \n\t balance roundrobin \n\t server 2867-web-01 34.139.140.249:80 check \n\t server 2867-web-02 100.26.46.66:80 check" /etc/haproxy/haproxy.cfg
 # Restarting service
 sudo service haproxy restart
