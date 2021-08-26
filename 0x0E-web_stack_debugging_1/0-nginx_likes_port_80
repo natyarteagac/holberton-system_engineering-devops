@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Script that corrects the port of default in both of files
+# Connecting in 80 port
 
-rm  /etc/nginx/sites-enabled/default
-sudo sed -i 's/default_server ipv6only=on;/default_server;/' /etc/nginx/sites-available/default
+sudo sed -i "s/default_server ipv6only=on;/default_server;/" /etc/nginx/sites-available/default
 sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service enginx restart
