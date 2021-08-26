@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Correcting port 80 of the file default
-sudo sed -i 's/\\\tlisten 8080 default_server;\n\tlisten [::]:8080 default_server ipv6only=on;/\tlisten 80 default_server;\n\tlisten [::]:80 default_server;/g' /etc/nginx/sites-enabled/default
-sudo restart nginx restart
+# Script that corrects the port of default
+sudo sed -i 's/^\tlisten 8080 default_server;/\tlisten 80 default_server;/' etc/nginx/sites-enabled/default
+sudo sed -i 's/8080 default_server ipv6only=on;/80 default_server;/' /etc/nginx/sites-enabled/default
