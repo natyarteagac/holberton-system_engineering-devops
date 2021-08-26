@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # Script that corrects the port of default in both of files
-sudo sed -i 's/8080/80;/' etc/nginx/sites-enabled/default
-sudo sed -i 's/ipv6only=on;$/;/' /etc/nginx/sites-available/default
+
+rm  /etc/nginx/sites-available/default
+sudo sed -i 's/8080/80/' etc/nginx/sites-enabled/default
+sudo sed -i 's/ipv6only=on;$/;/' /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default
 sudo service nginx restart
