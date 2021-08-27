@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script that shows information about the domain
+
+dig "$1" | grep -A1 'ANSWER SECTION:'
+if [ "$1" ]
+then
+    echo "The subdomain
+    
