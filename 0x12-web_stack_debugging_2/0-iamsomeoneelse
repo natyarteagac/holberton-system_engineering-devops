@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Bash script to know the user with whoami command
+# -u Run the command as a user other than the default target user
+
+sudo -u "$1" whoami
