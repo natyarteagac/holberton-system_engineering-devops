@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """ Python request """
 
-import json
 import requests
 from sys import argv
 
@@ -18,4 +17,4 @@ print("Employee {} is done with tasks ({}/{}):".format(
     name_of_employee.get('name'), counter, len(response)))
 for index in response:
     if index.get('completed') is True:
-        print("{}".format(index.get('title')))
+        print("\t {}".format(index.get('title')))
