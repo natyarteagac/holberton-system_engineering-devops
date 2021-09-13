@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """ Python request """
 
+import json
 from sys import argv
 import requests
-import json
 
 response = requests.get(
-    "https://jsonplaceholder.typicode.com/users/{}/todos".format(argv[1])).json()
+    "https://jsonplaceholder.typicode.com/users/{}/todos".
+    format(argv[1])).json()
 name_of_employee = requests.get(
     "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])).json()
 counter = 0
