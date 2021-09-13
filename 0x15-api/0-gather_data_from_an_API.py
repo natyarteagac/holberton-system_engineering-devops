@@ -2,8 +2,8 @@
 """ Python request """
 
 import json
-from sys import argv
 import requests
+from sys import argv
 
 response = requests.get(
     "https://jsonplaceholder.typicode.com/users/{}/todos".
