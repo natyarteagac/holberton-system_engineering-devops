@@ -13,7 +13,7 @@ counter = 0
 for index in response:
     if index.get('completed') is True:
         counter += 1
-print("Employee {} is done with tasks ({}/{}):".format(
+print("Employee {} is done with tasks({}/{}): ".format(
     name_of_employee.get('name'), counter, len(response)))
 for index in response:
     if index.get('completed') is True:
