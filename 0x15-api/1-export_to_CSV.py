@@ -14,7 +14,8 @@ if __name__ == '__main__':
 
     with open("{}.csv".format(argv[1]), "w") as file_csv:
         f = csv.writer(file_csv)
-        f.writerow("response", "name_of_employee")
+        f.writerows("response")
+        f.writerow("name_of_employee")
         for index in response:
-            f.writerows("{}, {}, {}".format(index.get('Id'), index.get(
+            f.writerows("{}, {}, {}, {}".format(index.get('Id'), name_of_employee.get('name'), index.get(
                 'completed'), index.get('title')))
