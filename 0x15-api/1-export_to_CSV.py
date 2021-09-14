@@ -19,4 +19,4 @@ if __name__ == '__main__':
             list_append.append(index)
             f.writerow(
                 [index.get('userId'), name_of_employee.get
-                    ('name'), index.get('completed'), index.get('title')])
+                    ('username'), index.get('completed'), index.get('title')])
