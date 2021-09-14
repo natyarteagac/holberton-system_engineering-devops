@@ -13,11 +13,10 @@ if __name__ == '__main__':
         "https://jsonplaceholder.typicode.com/users/{}".format(argv[1])).json()
 
     with open("{}.csv".format(argv[1]), "w") as file_csv:
-        f = csv.writer(file_csv)
-        f.writerow("response")
-        f.writerow("name_of_employee")
+        f = csv.writer(file_csv, quoting=csv.QUOTE_ALL)
+        list_append = []
         for index in response:
-            f.writerows("{}, {}, {}, {}".
-                        format(index.get('userId'),
-                               name_of_employee.get('name'), index.get(
-                            'completed'), index.get('title')))
+            list_append.append(index)
+            f.writerow(
+                [index.get('userId'), name_of_employee.get
+                    ('name'), index.get('completed'), index.get('title')])
