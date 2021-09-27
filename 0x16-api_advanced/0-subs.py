@@ -14,7 +14,7 @@ def number_of_subscribers(subreddit):
         'https://www.reddit.com/r/{}/about.json'.
         format(subreddit), headers=headers, allow_redirects=False).json()
     number_of_suscribers = r.get('data').get('subscribers')
-    if not subreddit:
+    if subreddit != '<200>':
         return 0
     else:
         return number_of_suscribers
