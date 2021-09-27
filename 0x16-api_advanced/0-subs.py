@@ -12,9 +12,10 @@ def number_of_subscribers(subreddit):
     }
     r = requests.get(
         'https://www.reddit.com/r/{}/about.json'.
-        format(subreddit), headers=headers, allow_redirects=False).json()
-    number_of_suscribers = r.get('data').get('subscribers')
-    if subreddit != '<200>':
+        format(subreddit), headers=headers, allow_redirects=False)
+    if str(r) != '<Response [200]>':
         return 0
     else:
+        format_json = r.json()
+        number_of_suscribers = format_json.get('data').get('subscribers')
         return number_of_suscribers
