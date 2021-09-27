@@ -6,6 +6,7 @@ import sys
 
 
 def number_of_subscribers(subreddit):
+    """ Return the number of suscribers"""
     headers = {
         "User-Agent": "Mozilla/5.0:APIrequest1.0 (by u/natyarteagac)"
     }
