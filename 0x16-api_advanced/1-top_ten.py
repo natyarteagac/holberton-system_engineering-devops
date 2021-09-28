@@ -16,7 +16,7 @@ def top_ten(subreddit):
         'https://www.reddit.com/r/{}/hot.json'.
         format(subreddit), headers=headers, allow_redirects=False)
     if str(r) != '<Response [200]>':
-        return None
+        print(None)
     else:
         response_json = r.json()
         title_name = response_json.get('data').get(
