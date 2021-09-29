@@ -1,10 +1,1 @@
-#!/usr/bin/env bash
-
-# Path parameters
-export token="natalias-dashboard-tue-sep-28-71621-pm?from_ts=1632922924877&to_ts=1632926524877&live=true"
-# Curl command
-# Curl command
-curl -X GET "https://api.datadoghq.com/api/v1/dashboard/public/${token}" \
--H "Content-Type: application/json" \
--H "DD-API-KEY: ${DD_API_KEY}" \
--H "DD-APPLICATION-KEY: ${DD_APP_KEY}"
+4c12fa26-2095-11ec-8ac1-da7ad0900002-406c2dee7ede073bc457f893a40102e5
