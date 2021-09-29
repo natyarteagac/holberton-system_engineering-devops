@@ -43,9 +43,6 @@
   <div class="panel-body">
     <span id="user_id" data-id="2867"></span>
 
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
 <p>For this task head to <a href="/rltoken/Uho9kxbX9KHCSYAQ-Zl1AQ" title="https://www.datadoghq.com/" target="_blank">https://www.datadoghq.com/</a> and sign up for a free <code>Datadog</code> account. When signing up, you&rsquo;ll have the option of selecting statistics from your current stack that <code>Datadog</code> can monitor for you. Once you have an account set up, follow the instructions given on the website to install the <code>Datadog</code> agent. </p>
 
 <p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6b0ea6345a6375437845.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210929%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210929T192135Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b4198b7975a4fb42430763abc2a575699dd720a14aa221060985304c117bbc5e" alt="" style="" /></p>
@@ -71,11 +68,6 @@
   <div class="panel-body">
     <span id="user_id" data-id="2867"></span>
 
-    
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
 <p>Among the litany of data your monitoring service can report to you are system metrics. You can use these metrics to determine statistics such as reads/writes per second, which can help your company determine if/how they should scale. Set up some <code>monitors</code> within the <code>Datadog</code> dashboard to monitor and alert you of a few. You can read about the various system metrics that you can monitor here: <a href="/rltoken/naY47nur2yPJNw8tdACnzQ" title="System Check" target="_blank">System Check</a>.</p>
 
 <p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a4551974aadc181e97a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210929%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210929T192135Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d928382ba074facac1852b71bc2ef1ca83673909b11dc9591856cd43c620e784" alt="" style="" /></p>
@@ -100,10 +92,6 @@
 
   <div class="panel-body">
     <span id="user_id" data-id="2867"></span>
-
-    <!-- Progress vs Score -->
-
-    <!-- Task Body -->
 <p>Now create a dashboard with different metrics displayed in order to get a few different visualizations.</p>
 
 <ul>
