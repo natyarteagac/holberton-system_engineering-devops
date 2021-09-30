@@ -1,7 +1,6 @@
-# Restarting Apache2
+# Regex to change the word phpp in php wp-settings.php
 
-
-exec { 'Restart Apache':
-    exec     => '/etc/init.d/apache2 restart',
+exec { 'Change of word':
+    command  => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
     provider => shell,
 }
