@@ -34,11 +34,6 @@
         <div class="task_progress_bar">
           <div class="task_score_bar">
           </div>
-        </div>
-        <div class="task_progress_score_text">
-          Score: <span class="task_score_value">0%</span> (<span class="task_progress_value">Checks completed: 0%</span>)
-        </div>
-      </div>
 
 <!-- Task Body -->
 <p><a href="https://youtu.be/uHEzt1QuASo" target="_blank"><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/f5af5167e65bd3101f76.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20211003%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211003T221650Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=59a0d50945123e59b4084201824c54360215d295c2262efb365a6a6b0fa86b3c" alt="" style="" /></a></p>
